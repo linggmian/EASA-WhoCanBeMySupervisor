@@ -1,0 +1,10 @@
+{% extends "baseAdmin.html" %}
+{% block title %}
+    Admin Page
+{% endblock %}
+{% block content %}
+    <div class="card-body">
+        <a href="{{ url_for('supervisorList') }}" class="btn btn-primary">View Supervisor List</a>
+        <a href="{{ url_for('modify') }}" class="btn btn-primary">Modify Supervisor Information</a>
+    </div>
+{% endblock %}

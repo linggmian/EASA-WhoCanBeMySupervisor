@@ -1,0 +1,139 @@
+{% extends "baseAdmin.html" %}
+{% block title %}
+    Modify Experts
+{% endblock %}
+{% block content %}
+    <div class="card">
+        <div class ="card-body">
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                Please enter the expert details according to the form below. If there is no available Details that can
+                be provided for a certain particulars, use - on that particular.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <form id = "insert_new_supervisor" class="needs-validation" novalidate>
+            <div class="form-group row">
+                <label for="expertName" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="expertName" placeholder="E.g Andy" name="ExpertName">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter an expert's name!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Position" class="col-sm-2 col-form-label">Position</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Position" placeholder="E.g Senior Lecturer" name="Position">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter a valid position!
+                </div>
+            </div>
+             <div class="form-group row">
+                <label for="Email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Email" placeholder="example@usm.my" name="Email">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter an Email Address!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Telephone" class="col-sm-2 col-form-label">Telephone</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Telephone" placeholder="01-111111" name="Telephone">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter a Telephone Number!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Fax" class="col-sm-2 col-form-label">Fax</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Fax" placeholder="01-111111" name="Fax">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter a Fax Number!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Room" class="col-sm-2 col-form-label">Room</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Room" placeholder="001" name="Room">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter a Room Number!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Address" class="col-sm-2 col-form-label">Address</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Address" placeholder="No 1, Taman Bunga, ..." name="Address">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter an Address!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="ResearchCluster" class="col-sm-2 col-form-label">Research Cluster</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="ResearchCluster" placeholder="Networking" name="ResearchCluster">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter the research cluster!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Interest" class="col-sm-2 col-form-label">Interest</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Interest" placeholder="Networking" name="Interest">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter the interest!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Specialization" class="col-sm-2 col-form-label">Specialization</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Specialization" placeholder="Network Protocols" name="Specialization">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter the specialization!
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Qualification" class="col-sm-2 col-form-label">Qualification</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-plaintext" id="Qualification" placeholder="BCompSc." name="Qualification">
+                </div>
+                <div class="invalid-feedback">
+                    Please enter the qualification!
+                </div>
+            </div>
+            <button class="btn btn-light btn-sm" type="submit" style="float:right">Submit</button>
+        </form>
+        </div>
+    </div>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+    </script>
+
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "baseAdmin.html" %}
+{% block title %}
+    List of Supervisors
+{% endblock %}
+{% block content %}
+    <table id="svTable" class="table table-bordered display">
+        <thead>
+            <tr class="table-secondary">
+                <th scope="col">Lecturer ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Email</th>
+                <th scope="col">Telephone</th>
+                <th scope="col">Fax</th>
+                <th scope="col">Room</th>
+                <th scope="col">Address</th>
+                <th scope="col">Research Cluster</th>
+                <th scope="col">Interest</th>
+                <th scope="col">Specialization</th>
+                <th scope="col">Qualification</th>
+                <th scope="col">Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in statement %}
+                <tr>
+                    <td class="table-light">{{ i[0] }}</td>
+                    <td class="table-light">{{ i[1] }}</td>
+                    <td class="table-light">{{ i[2] }}</td>
+                    <td class="table-light">{{ i[3] }}</td>
+                    <td class="table-light">{{ i[4] }}</td>
+                    <td class="table-light">{{ i[5] }}</td>
+                    <td class="table-light">{{ i[6] }}</td>
+                    <td class="table-light">{{ i[7] }}</td>
+                    <td class="table-light">{{ i[8] }}</td>
+                    <td class="table-light">{{ i[9] }}</td>
+                    <td class="table-light">{{ i[10] }}</td>
+                    <td class="table-light">{{ i[11] }}</td>
+                    <td class="table-light">{{ i[12] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script type="text/javascript">
+        $(document).ready( function () {
+            $('#svTable').DataTable({
+                responsive: true
+            });
+            $("#svTable").addClass("compact nowrap w-100");
+        } );
+    </script>
+
+{% endblock %}

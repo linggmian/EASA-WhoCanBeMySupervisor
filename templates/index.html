@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}
+    Who Can Be My Supervisor?
+{% endblock %}
+{% block content %}
+    <div id="homePage">
+        <h1 id="title">Who Can Be My Supervisor?</h1>
+        <a href="{{ url_for("search") }}">
+            <button type="button" class="btn btn-light btn-lg rounded" id="enterSearch">
+                Click Here to Search Now!
+                <img src="{{ url_for('static', filename='searchButton.png') }}" alt="Search Icon" id="searchLogo">
+            </button>
+        </a>
+        <p>Want to find a desired supervisor but having troubles doing so? No worries, by using our website, in no time,
+            <br>you will be able to find your desired supervisor through our expert search system.</p>
+    </div>
+{% endblock %}

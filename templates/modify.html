@@ -1,0 +1,14 @@
+{% extends "baseAdmin.html" %}
+{% block title %}
+    Modify Experts
+{% endblock %}
+{% block content %}
+    <div id="modifyBlock">
+        <h4>Select the following Options</h4>
+
+        <h5><a href="#">Select Expert to View and Modify</a></h5>
+        <h5><a href="{{ url_for("insertNewExpert") }}">Insert New Expert</a></h5>
+        <h5><a href="#">Delete Existing Expert</a></h5>
+
+    </div>
+{% endblock %}

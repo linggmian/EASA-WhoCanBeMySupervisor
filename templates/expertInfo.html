@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}
+    Expert Info
+{% endblock %}
+{% block content %}
+
+    <div class="card" id="expertPublication">
+        <div class="card-body">
+            <h3><b>{{ expertname }}</b></h3>
+            <hr>
+            <h5><b>Expert Details:</b></h5>
+            <div class="left">
+                <p><b>Position:</b> {{ expertdata[2] }}</p>
+                <p><b>Email:</b> {{ expertdata[3] }}</p>
+                <p><b>Telephone:</b> {{ expertdata[4] }}</p>
+                <p><b>Fax:</b> {{ expertdata[5] }}</p>
+                <p><b>Room:</b> {{ expertdata[6] }}</p>
+                <p><b>Address:</b> {{ expertdata[7] }}</p>
+            </div>
+            <div class="right">
+                <p><b>Research Cluster:</b> {{ expertdata[8] }}</p>
+                <p><b>Interest:</b> {{ expertdata[9] }}</p>
+                <p><b>Specialization:</b> {{ expertdata[10] }}</p>
+                <p><b>Qualification:</b> {{ expertdata[11] }}</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="card" id="expertPublication">
+        <div class="card-body">
+            <h5><b>Publication Information</b></h5>
+            <p><b>Number of Publications Match:</b> {{ expert_count }}</p>
+            <hr>
+            {% for publication in expert_pub_list %}
+                <h5><b>{{ publication[4] }}</b></h5>
+                <p><b>Authors: </b>{{ publication[2] }} </p>
+                <p><b>Author Keywords: </b>{{ publication[19] }}</p>
+                <p><b>Index Keywords: </b>{{ publication[20] }}</p>
+                <p><b>Source: </b>{{ publication[6] }}</p>
+                <p><b>Year: </b>{{ publication[5] }}</p>
+                <p><b>DOI: </b>{{ publication[14] }}</p>
+                <p><b>Abstract: </b>{{ publication[18] }}</p>
+                <hr>
+            {% endfor %}
+        </div>
+    </div>
+
+    <a href="{{ url_for("dashboard") }}">
+        <button type="button" class="btn btn-light btn-lg rounded" id=returnBtn>Return to Search Result</button>
+    </a>
+
+{% endblock %}

@@ -1,0 +1,121 @@
+#content_box{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    margin: 20px auto auto;
+    border: 1px silver;
+    padding: 10px;
+    font-family: "Calps Sans", sans-serif;
+    color: black;
+    max-height: 90%;
+}
+
+#background_img{
+    background-image: url("USM background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#loginBtn{
+    margin-top: 10px;
+}
+
+#loginForm{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align:center;
+}
+
+#homePage{
+    text-align:center;
+
+}
+
+#searchLogo{
+    width: 2em;
+    height: 2em;
+    margin-left: 10px;
+
+}
+
+#enterSearch{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#title{
+    font-family: Georgia, serif;
+}
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
+
+#searchBtn{
+    margin-top:10px;
+    float:right;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+#searchBar{
+    width:25%;
+    float:left;
+}
+
+#searchResult{
+    margin-bottom: 10px;
+}
+
+#content_box_admin{
+    width: auto;
+    margin: 20px;
+    border: 1px silver;
+    padding: 10px;
+    font-family: "Calps Sans", sans-serif;
+}
+
+thead input{
+    width: 100%
+}
+
+#svTable{
+    font-size: 12px;
+}
+
+#searchResultTable{
+    float:left;
+}
+
+#expertPubTable{
+    overflow-x:auto;
+    overflow-y:auto;
+}
+
+#expertPublication{
+    background-color:whitesmoke;
+    width:auto;
+}
+
+.left, .right{
+    width: 50%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#returnBtn{
+    margin-top: 10px;
+}

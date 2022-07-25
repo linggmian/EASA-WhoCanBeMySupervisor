@@ -1,0 +1,19 @@
+﻿LecturerID,Name,Position,Email,Telephone,Fax,Room,Address,ResearchCluster,Interest,Specialization,Qualification,Image
+1,"Anusha Achuthan, Ts. Dr.",Senior Lecturer,anusha@usm.my,+604 653 4755,+604 653 3335,606,"School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang",Data to Knowledge,"Computer Vision, Image Processing, Artificial Intelligence, Machine Learning, Deep Learning, Computational Intelligence","Computer Vision, Medical Image Analysis, Brain Imaging, Computational Intelligence, Machine Learning","B.Comp Sci (USM), M.Sc (USM), Ph.D (USM) ",
+2,"Ahmad Sufril Azlan Mohamed, Dr.",Senior Lecturer,sufril@usm.my,+604 653 6351,+604 653 3335,520,"School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang",Data to Knowledge,"Image Processing, Video Tracking, Facial Recognition and Medical Imaging","Image Processing, Video Tracking, Facial Recognition and Medical Imaging","BIT (Hons), Multimedia University, Malaysia, 2003
+MSc., University of Manchester, United Kingdom, 2005
+PhD., University of Salford, United Kingdom, 2015.",
+3,"Azleena Mohd Kassim, Dr",Senior Lecturer,azleena.mk@usm.my,+604 653 3645,+604 653 3335,708,"School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang",Data To Knowledge,"Knowledge Engineering & Management, Ontology as a Knowledge base, Artificial Intelligence, Metaheuristics Algorithm, Evolutionary Computing, Health Informatics, Group/Coalition Formation","Knowledge Management & Engineering, Evolutionary Computing, Artificial Intelligence ,Health Informatics","PhD in Computer Science, Universiti Sains Malaysia (Evolutionary Computing)
+Masters in Computer Science, Universiti Sains Malaysia (Applied Informatics)
+BSc in Computer Science (Hons), Universiti Sains Malaysia",
+4,"Azlan Osman, Mr.",Senior Lecturer,azlanosman@usm.my,+604 653 2062,+604 653 3335,714,"School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang",Service Computing,,,,
+5,"Azizul Rahman Mohd Shariff, Dr",Senior Lecturer,azizulrahman@usm.my,+604 653 2486,+604 653 3335,723,"School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang",Enabling Technologies And Infrastructures,"Mobile/Cellular & Wireless Networks - Context Aware Radio & Applications, Pervasive Computing, Vehicular Networks, Mobile Behavioral and Computation","Mobile/Cellular Networks & Protocols, Mobile Behavioral & Computation","PhD in Communications Networks (Univ. of Bradford, U.K.)
+MSc in Personal, Mobile and Satellite Communications (Univ. of Bradford, U.K.)
+B.Eng (Hons) Elect. & Electronics (Univ. of Plymouth, U.K.)
+Dip. in Elect. & Electronics (UiTM, M'sia) ",
+6,"Aman Jantan, Associate Professor Dr.",Associate Professor,aman@usm.my,+604 653 2157,+604 653 3335,730,"School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang",Enabling Technologies And Infrastructures,"Software Engineering, ICT Securities","Software Engineering, ICT Securities","BCompSc. (Hons) Universiti Sains Malaysia
+MSc. Universiti Sains Malaysia
+PhD. Universiti Sains Malaysia ",
+7,Azman Samsudin,Professor ,azman.samsudin@usm.my,+604 653 3635/2158,+604 653 3335,719/704C,"School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang",Enabling Technologies And Infrastructures,"Cryptography, Parallel & Distributed Computing, and Interconnection Switching Networks","Cryptography, Parallel & Distributed Computing, and Interconnection Switching Networks.","BSc. University of Rochester, U.S.A. 
+MSc. University of Denver, U.S.A.
+PhD. University of Denver, U.S.A. ",
